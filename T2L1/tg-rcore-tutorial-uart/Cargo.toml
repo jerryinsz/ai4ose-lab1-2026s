@@ -1,0 +1,18 @@
+[package]
+name = "tg-rcore-tutorial-uart"
+description = "Minimal UART16550 driver for rCore tutorial kernels in RISC-V S-mode."
+version = "0.1.0"
+edition = "2024"
+authors = ["tg-rcore contributors"]
+repository = "https://github.com/rcore-os/tg-rcore-tutorial-uart"
+homepage = "https://github.com/rcore-os/tg-rcore-tutorial-uart"
+documentation = "https://docs.rs/tg-rcore-tutorial-uart"
+license = "GPL-3.0"
+readme = "README.md"
+keywords = ["rcore", "uart", "no-std", "riscv"]
+categories = ["no-std", "embedded"]
+
+[package.metadata.docs.rs]
+targets = ["riscv64gc-unknown-none-elf"]
+
+[dependencies]
