@@ -90,13 +90,14 @@ tg-rcore-tutorial-ch1-storage/
 ├── build.rs                   # 构建脚本（生成链接脚本）
 ├── .cargo/
 │   └── config.toml            # Cargo 配置（目标平台、QEMU 参数）
-├── fs.img                     # 虚拟磁盘镜像
+├── fs.img                     # 虚拟磁盘镜像（运行时自动生成）
 ├── test.sh                    # 测试脚本
 └── src/
     └── main.rs                # 内核入口（virtio-blk 驱动与测试逻辑）
 ```
 
 > **说明**：本实验代码已实现完整功能，主要作为**阅读学习**和**运行验证**使用。建议先运行观察输出，再阅读源码理解实现原理。
+>
 
 ## 依赖说明
 
