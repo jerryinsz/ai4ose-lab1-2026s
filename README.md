@@ -1,4 +1,4 @@
-# AI4OSE Lab1 总结报告（模板）
+# AI4OSE Lab1 总结报告
 
 
 
