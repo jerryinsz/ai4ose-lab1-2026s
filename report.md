@@ -1,4 +1,4 @@
-# AI4OSE Lab1 总结报告（模板）
+# AI4OSE Lab1 总结报告
 
 
 
@@ -64,7 +64,7 @@ cargo run --features exercise
 # 运行后在 QEMU 终端中输入 `ch3_usertest` 或对应测例
 ```
 
-#### 输出结果（贴关键输出）
+#### 输出结果
 
 ```text
 app0 syscall statistics:
@@ -99,7 +99,7 @@ cargo run --features exercise
 # 然后输入 ch4_usertest
 ```
 
-#### 输出结果（贴关键输出）
+#### 输出结果
 
 ```text
 [kernel] mmap success: addr = 0x10000000, len = 4096
@@ -129,7 +129,7 @@ cargo run --features exercise
 # 输入 ch5_usertest
 ```
 
-#### 输出结果（贴关键输出）
+#### 输出结果
 
 ```text
 [kernel] spawn child process success, pid = 2
@@ -159,7 +159,7 @@ cargo run --features exercise
 # 输入 ch6_usertest
 ```
 
-#### 输出结果（贴关键输出）
+#### 输出结果
 
 ```text
 [kernel] linkat success: oldpath = file1, newpath = file2
@@ -189,7 +189,7 @@ cargo run --features exercise
 # 输入 ch8_usertest
 ```
 
-#### 输出结果（贴关键输出）
+#### 输出结果
 
 ```text
 [kernel] deadlock detected for tid 2 requesting Mutex(1)
